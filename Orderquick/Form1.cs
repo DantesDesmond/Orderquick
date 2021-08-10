@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
+//Primera lista
 namespace Orderquick
 {
     public partial class QuickOrder : Form
@@ -51,7 +53,7 @@ namespace Orderquick
                 }
 
             }
-
+//segunda lista
             for (int m = 0; m < array.Length; m++)
 
             {
