@@ -14,22 +14,24 @@ namespace Orderquick
 {
     public partial class QuickOrder : Form
     {
+        int[] array = new int[] { 8, 2, 9, 25, 80, 13, 85, 99, 1 };
         public QuickOrder()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            int [] array = new int[] { 8,2,9,25,80,13,85,99,1};
+          
 
             for (int a = 0; a < array.Length; a++)
 
             {
-
                 listOne.Items.Add(array[a]);
-
             }
+
+        }
+
+      
+        private void button1_Click(object sender, EventArgs e)
+        {
+          
 
             int auxiliar;
             for (int q = 0; q < array.Length; q++)
