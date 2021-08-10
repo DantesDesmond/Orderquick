@@ -53,7 +53,7 @@ namespace Orderquick
                 }
 
             }
-//segunda lista
+//Segunda lista
             for (int m = 0; m < array.Length; m++)
 
             {
